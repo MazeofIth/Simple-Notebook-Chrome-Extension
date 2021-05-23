@@ -1,0 +1,23 @@
+textarea {
+  resize: none;
+  border: none;
+  outline: none;
+}
+
+button{
+  position:absolute;
+  bottom:4.5px;
+  right:4.5px;
+  padding: 0;
+  margin: 0;
+  border: none;
+  outline: none;
+}
+
+textarea::-webkit-scrollbar {
+    width: 0.5em;
+}
+
+textarea::-webkit-scrollbar-thumb {
+  background-color: darkgrey;
+}

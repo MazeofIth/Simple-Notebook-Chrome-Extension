@@ -1,0 +1,18 @@
+{
+  "name": "Simple Notebook",
+
+  "version": "0.0.0.1",
+
+  "description": "Just a pop-up notebook without ads, a complicated filesystem, nor a bazillion settings (but dark mode!).",
+
+  "manifest_version": 2,
+  "incognito": "split",
+
+  "browser_action": {
+    "default_popup": "index.html"
+  },
+
+"icons": {
+    "128": "icon.png"
+    }
+}
